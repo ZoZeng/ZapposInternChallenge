@@ -4,10 +4,11 @@
 This is a coding challenge for Zappos summer internship position.
 
 Feature:
-1.Using Retrofit and Gson to handle REST request\n
-2.Animation when floating action button clicked (The button spins)\n
-3.Using Recycleview to display the items.\n
-4.DataBinding\n
+
+#1.Using Retrofit and Gson to handle REST request
+#2.Animation when floating action button clicked (The button spins)\n
+#3.Using Recycleview to display the items.\n
+#4.DataBinding\n
 
 
 <img width="241" alt="1" src="https://cloud.githubusercontent.com/assets/17021326/22850041/99b8ea64-efd1-11e6-80d4-a3e1149fad1a.png">
