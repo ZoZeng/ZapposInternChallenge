@@ -28,7 +28,7 @@ public class Main extends AppCompatActivity {
             public void onClick(View v) {
                 String target = search.getText().toString();
                 Intent intent = new Intent(context,SearchResult.class);
-                intent.putExtra(target,"target");
+                intent.putExtra("target",target);
                 startActivity(intent);
 
             }

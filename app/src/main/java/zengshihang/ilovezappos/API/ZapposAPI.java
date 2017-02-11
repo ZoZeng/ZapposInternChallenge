@@ -12,7 +12,7 @@ import zengshihang.ilovezappos.model.ZapposModel;
  */
 
 public interface ZapposAPI {
-    @GET("/Search?term=/{search}/&key=b743e26728e16b81da139182bb2094357c31d331")
-    Call<ZapposModel> getDetail(@Path("search")String search);
+    @GET("Search")
+    Call<ZapposModel> getDetail(@Query("term")String term,@Query("key")String key);
 
 }
